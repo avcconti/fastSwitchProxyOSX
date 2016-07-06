@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE66199A1CF83B0A009DE86B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6619991CF83B0A009DE86B /* AppDelegate.swift */; };
+		FE66199C1CF83B0A009DE86B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE66199B1CF83B0A009DE86B /* Assets.xcassets */; };
+		FE66199F1CF83B0A009DE86B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE66199D1CF83B0A009DE86B /* MainMenu.xib */; };
+		FE6619AA1CF83B0A009DE86B /* fastSwitchProxyOSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6619A91CF83B0A009DE86B /* fastSwitchProxyOSXTests.swift */; };
+		FE6619B51CF83B0A009DE86B /* fastSwitchProxyOSXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6619B41CF83B0A009DE86B /* fastSwitchProxyOSXUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE6619A61CF83B0A009DE86B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE66198E1CF83B0A009DE86B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE6619951CF83B0A009DE86B;
+			remoteInfo = fastSwitchProxyOSX;
+		};
+		FE6619B11CF83B0A009DE86B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE66198E1CF83B0A009DE86B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE6619951CF83B0A009DE86B;
+			remoteInfo = fastSwitchProxyOSX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE6619961CF83B0A009DE86B /* fastSwitchProxyOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fastSwitchProxyOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE6619991CF83B0A009DE86B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE66199B1CF83B0A009DE86B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE66199E1CF83B0A009DE86B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FE6619A01CF83B0A009DE86B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE6619A51CF83B0A009DE86B /* fastSwitchProxyOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fastSwitchProxyOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE6619A91CF83B0A009DE86B /* fastSwitchProxyOSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fastSwitchProxyOSXTests.swift; sourceTree = "<group>"; };
+		FE6619AB1CF83B0A009DE86B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE6619B01CF83B0A009DE86B /* fastSwitchProxyOSXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fastSwitchProxyOSXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE6619B41CF83B0A009DE86B /* fastSwitchProxyOSXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fastSwitchProxyOSXUITests.swift; sourceTree = "<group>"; };
+		FE6619B61CF83B0A009DE86B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE6619931CF83B0A009DE86B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE6619A21CF83B0A009DE86B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE6619AD1CF83B0A009DE86B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE66198D1CF83B0A009DE86B = {
+			isa = PBXGroup;
+			children = (
+				FE6619981CF83B0A009DE86B /* fastSwitchProxyOSX */,
+				FE6619A81CF83B0A009DE86B /* fastSwitchProxyOSXTests */,
+				FE6619B31CF83B0A009DE86B /* fastSwitchProxyOSXUITests */,
+				FE6619971CF83B0A009DE86B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE6619971CF83B0A009DE86B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE6619961CF83B0A009DE86B /* fastSwitchProxyOSX.app */,
+				FE6619A51CF83B0A009DE86B /* fastSwitchProxyOSXTests.xctest */,
+				FE6619B01CF83B0A009DE86B /* fastSwitchProxyOSXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE6619981CF83B0A009DE86B /* fastSwitchProxyOSX */ = {
+			isa = PBXGroup;
+			children = (
+				FE6619991CF83B0A009DE86B /* AppDelegate.swift */,
+				FE66199B1CF83B0A009DE86B /* Assets.xcassets */,
+				FE66199D1CF83B0A009DE86B /* MainMenu.xib */,
+				FE6619A01CF83B0A009DE86B /* Info.plist */,
+			);
+			path = fastSwitchProxyOSX;
+			sourceTree = "<group>";
+		};
+		FE6619A81CF83B0A009DE86B /* fastSwitchProxyOSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE6619A91CF83B0A009DE86B /* fastSwitchProxyOSXTests.swift */,
+				FE6619AB1CF83B0A009DE86B /* Info.plist */,
+			);
+			path = fastSwitchProxyOSXTests;
+			sourceTree = "<group>";
+		};
+		FE6619B31CF83B0A009DE86B /* fastSwitchProxyOSXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE6619B41CF83B0A009DE86B /* fastSwitchProxyOSXUITests.swift */,
+				FE6619B61CF83B0A009DE86B /* Info.plist */,
+			);
+			path = fastSwitchProxyOSXUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE6619951CF83B0A009DE86B /* fastSwitchProxyOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE6619B91CF83B0A009DE86B /* Build configuration list for PBXNativeTarget "fastSwitchProxyOSX" */;
+			buildPhases = (
+				FE6619921CF83B0A009DE86B /* Sources */,
+				FE6619931CF83B0A009DE86B /* Frameworks */,
+				FE6619941CF83B0A009DE86B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fastSwitchProxyOSX;
+			productName = fastSwitchProxyOSX;
+			productReference = FE6619961CF83B0A009DE86B /* fastSwitchProxyOSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE6619A41CF83B0A009DE86B /* fastSwitchProxyOSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE6619BC1CF83B0A009DE86B /* Build configuration list for PBXNativeTarget "fastSwitchProxyOSXTests" */;
+			buildPhases = (
+				FE6619A11CF83B0A009DE86B /* Sources */,
+				FE6619A21CF83B0A009DE86B /* Frameworks */,
+				FE6619A31CF83B0A009DE86B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE6619A71CF83B0A009DE86B /* PBXTargetDependency */,
+			);
+			name = fastSwitchProxyOSXTests;
+			productName = fastSwitchProxyOSXTests;
+			productReference = FE6619A51CF83B0A009DE86B /* fastSwitchProxyOSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE6619AF1CF83B0A009DE86B /* fastSwitchProxyOSXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE6619BF1CF83B0A009DE86B /* Build configuration list for PBXNativeTarget "fastSwitchProxyOSXUITests" */;
+			buildPhases = (
+				FE6619AC1CF83B0A009DE86B /* Sources */,
+				FE6619AD1CF83B0A009DE86B /* Frameworks */,
+				FE6619AE1CF83B0A009DE86B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE6619B21CF83B0A009DE86B /* PBXTargetDependency */,
+			);
+			name = fastSwitchProxyOSXUITests;
+			productName = fastSwitchProxyOSXUITests;
+			productReference = FE6619B01CF83B0A009DE86B /* fastSwitchProxyOSXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE66198E1CF83B0A009DE86B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Andrés Velasco";
+				TargetAttributes = {
+					FE6619951CF83B0A009DE86B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					FE6619A41CF83B0A009DE86B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FE6619951CF83B0A009DE86B;
+					};
+					FE6619AF1CF83B0A009DE86B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FE6619951CF83B0A009DE86B;
+					};
+				};
+			};
+			buildConfigurationList = FE6619911CF83B0A009DE86B /* Build configuration list for PBXProject "fastSwitchProxyOSX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE66198D1CF83B0A009DE86B;
+			productRefGroup = FE6619971CF83B0A009DE86B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE6619951CF83B0A009DE86B /* fastSwitchProxyOSX */,
+				FE6619A41CF83B0A009DE86B /* fastSwitchProxyOSXTests */,
+				FE6619AF1CF83B0A009DE86B /* fastSwitchProxyOSXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE6619941CF83B0A009DE86B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE66199C1CF83B0A009DE86B /* Assets.xcassets in Resources */,
+				FE66199F1CF83B0A009DE86B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE6619A31CF83B0A009DE86B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE6619AE1CF83B0A009DE86B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE6619921CF83B0A009DE86B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE66199A1CF83B0A009DE86B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE6619A11CF83B0A009DE86B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6619AA1CF83B0A009DE86B /* fastSwitchProxyOSXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE6619AC1CF83B0A009DE86B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6619B51CF83B0A009DE86B /* fastSwitchProxyOSXUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE6619A71CF83B0A009DE86B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE6619951CF83B0A009DE86B /* fastSwitchProxyOSX */;
+			targetProxy = FE6619A61CF83B0A009DE86B /* PBXContainerItemProxy */;
+		};
+		FE6619B21CF83B0A009DE86B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE6619951CF83B0A009DE86B /* fastSwitchProxyOSX */;
+			targetProxy = FE6619B11CF83B0A009DE86B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE66199D1CF83B0A009DE86B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE66199E1CF83B0A009DE86B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE6619B71CF83B0A009DE86B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE6619B81CF83B0A009DE86B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FE6619BA1CF83B0A009DE86B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = fastSwitchProxyOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = personal.fastSwitchProxyOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE6619BB1CF83B0A009DE86B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = fastSwitchProxyOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = personal.fastSwitchProxyOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FE6619BD1CF83B0A009DE86B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = fastSwitchProxyOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = personal.fastSwitchProxyOSXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fastSwitchProxyOSX.app/Contents/MacOS/fastSwitchProxyOSX";
+			};
+			name = Debug;
+		};
+		FE6619BE1CF83B0A009DE86B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = fastSwitchProxyOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = personal.fastSwitchProxyOSXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fastSwitchProxyOSX.app/Contents/MacOS/fastSwitchProxyOSX";
+			};
+			name = Release;
+		};
+		FE6619C01CF83B0A009DE86B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = fastSwitchProxyOSXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = personal.fastSwitchProxyOSXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = fastSwitchProxyOSX;
+			};
+			name = Debug;
+		};
+		FE6619C11CF83B0A009DE86B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = fastSwitchProxyOSXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = personal.fastSwitchProxyOSXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = fastSwitchProxyOSX;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE6619911CF83B0A009DE86B /* Build configuration list for PBXProject "fastSwitchProxyOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE6619B71CF83B0A009DE86B /* Debug */,
+				FE6619B81CF83B0A009DE86B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE6619B91CF83B0A009DE86B /* Build configuration list for PBXNativeTarget "fastSwitchProxyOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE6619BA1CF83B0A009DE86B /* Debug */,
+				FE6619BB1CF83B0A009DE86B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE6619BC1CF83B0A009DE86B /* Build configuration list for PBXNativeTarget "fastSwitchProxyOSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE6619BD1CF83B0A009DE86B /* Debug */,
+				FE6619BE1CF83B0A009DE86B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE6619BF1CF83B0A009DE86B /* Build configuration list for PBXNativeTarget "fastSwitchProxyOSXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE6619C01CF83B0A009DE86B /* Debug */,
+				FE6619C11CF83B0A009DE86B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE66198E1CF83B0A009DE86B /* Project object */;
+}
